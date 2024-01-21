@@ -8,7 +8,7 @@ Analysis of what makes for a successful Kickstarter campaign
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data cleaning and Preperation](#data-cleaning-and-preperation)
-- [EDA & Data Analysis](#eda-&-data-analysis)
+- [EDA and Data Analysis](#eda-and-data-analysis)
 - [Results and Findings](#results-and-findings)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
@@ -36,7 +36,7 @@ In the intiial data preperation phase, we performed the following tasks:
 2. Handling null values
 3. Data cleaning and formatting
 
-### EDA & Data Analysis
+### EDA and Data Analysis
 
 EDA involved in exploring Kickstarter campaigns
 
