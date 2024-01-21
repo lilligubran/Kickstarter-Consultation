@@ -36,7 +36,7 @@ In the intiial data preperation phase, we performed the following tasks:
 2. Handling null values
 3. Data cleaning and formatting
 
-### EDA/Data Analysis
+### EDA & Data Analysis
 
 EDA involved in exploring Kickstarter campaigns
 
