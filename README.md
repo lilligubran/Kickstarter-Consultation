@@ -34,6 +34,17 @@ In the intial data preperation phase, I performed the following tasks:
 2. Handling null values
 3. Data cleaning and formatting
 
+```python
+import pandas as pd
+
+kickstarter = pd.read_csv("./DAI_kickstarterscrape_dataset.csv", encoding='latin-1')
+
+kickstarter.head()
+kickstarter.dtypes
+kickstarter.isnull().sum()
+kickstarter.rename(columns={'project id':'project_id', 'funded percentage':'funded_percent', 'funded date':'fund_date', 'reward levels':'reward_levels'})
+```
+
 ### EDA and Data Analysis
 
 EDA involved in exploring Kickstarter campaigns
@@ -47,15 +58,7 @@ For this project I anlyzed what it takes to create a successful Kickstarter camp
 
 ### Results and Findings
 
-![image](https://github.com/lilligubran/Kickstarter-Consultation/assets/155771979/6fdcba32-222f-4d26-aced-b5a01b22cee8)
-
-![image](https://github.com/lilligubran/Kickstarter-Consultation/assets/155771979/bc6f9089-ff9d-41a7-85dd-bb3cd0a4aa09)
-
-![image](https://github.com/lilligubran/Kickstarter-Consultation/assets/155771979/2d44a407-c379-42b9-8fa7-b672a7f6a633)
-
-![image](https://github.com/lilligubran/Kickstarter-Consultation/assets/155771979/4494524c-ba58-4d91-b201-5f0bc39bf37d)
-
-![image](https://github.com/lilligubran/Kickstarter-Consultation/assets/155771979/0af571a8-272a-467c-abf6-c8d73054a631)
+The most successful Kickstarter campaigns predominantly revolved around film and video projects and music projects. Documentaries and Short Films were the most successful amongst film and video projects. Rock and Indie Concerts were the most successful amongst music projects. Campaign duration also played a pivotal role in project success. The most successful Campaigns were around 30 days. Campaigns with a duration longer than one month were typically unsuccessful or cancelled. Project launch day should also be taken into consideration. Campaigns launched during the middle of the week had less success compared to campaigns launched Friday through Monday. Successful campaigns set an attainable goal around $5,000. Campaigns asking for more than $10,000 to $15,000 were typically unsuccessful. Successful campaigns also boasted substantial support from donor groups exceeding 100 backers.
 
 
 ### Recommendations
@@ -70,7 +73,7 @@ Avoid launching in the middle of the week (Tuesday through Thursday)
 
 Choose a project in Film/Video or Music areas
 
-- Documentaries
+- Documentaries or Short Films
 - Rock concerts
 
 
