@@ -34,6 +34,8 @@ In the intial data preperation phase, I performed the following tasks:
 2. Handling null values
 3. Data cleaning and formatting
 
+I used Python for intial data cleaning and identifying data types and null values. I uploaded the cleaned data into Tableau for further analysis. 
+
 ```python
 import pandas as pd
 
